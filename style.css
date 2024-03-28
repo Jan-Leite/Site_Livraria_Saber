@@ -1,0 +1,187 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url("assets/livraria.jpg");  
+}
+
+
+#menu-nav{
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #333;
+    
+}
+
+#menu-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    transition: 0.5s;
+    
+}
+
+#menu-nav li{
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#menu-nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#content-titulo{
+    color: rgba(21, 70, 116, 0.856);
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    padding: 30px;
+    background-color: #2e38441a;
+    border-radius: 100px;
+}
+
+#content-sobre h2{
+    color: rgba(21, 70, 116, 0.856);
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+#content-sobre p{
+    font-size: 20px;
+    font-weight:400;
+    text-align: center;
+    padding: 20px;
+}
+
+.páginas-do-mar{
+    font-weight: bold;
+}
+
+.debater-ideias{
+    font-weight: bold;
+    color: darkblue;
+}
+
+.casa{
+    font-weight: bold;
+    color: red;
+}
+
+#linha-horizontal {
+    width: 100%;
+    margin-top: 30px;
+    border: 1px solid #000;
+}
+
+#content-filiais h2{
+    color: rgba(21, 70, 116, 0.856);
+    display: flex;
+    justify-content: center; 
+    transition: 0.5s;  
+}
+
+#content-filiais ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+#content-filiais li{
+    font-weight: 700;
+    color: rgba(18, 9, 141, 0.89);
+}
+
+#content-filiais ul li img{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 190px;
+    transition: 0.5s;
+}
+
+#content-livros h2{
+    color: rgba(21, 70, 116, 0.856);
+    display: flex;
+    justify-content: center;   
+    transition: 0.5s;
+}
+
+#content-livros ul{
+    list-style: square;
+}
+
+#content-livros ul li{
+    font-size: 20px;
+    font-weight:600;
+    color: #0c3092;
+}
+
+
+.guerraDosTronos{
+    color: rgb(179, 11, 11);
+    list-style-type: square;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+
+#content-autores h2{
+    color: rgba(21, 70, 116, 0.856);
+    display: flex;
+    justify-content: center;   
+    transition: 0.5s;
+}
+
+#content-autores ol li{
+    font-size: 20px;
+    font-weight:600;
+    color: #0c3092;
+}
+
+#menu-nav a:hover{
+    transition: 0.5s;
+    color: rgba(21, 70, 116, 0.856);
+}
+
+#content-sobre h2:hover{
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+#content-filiais h2:hover{
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+#content-livros h2:hover{
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+#content-autores h2:hover{
+    transition: 0.5s;
+    font-size: 30px;
+}
+
+#content-filiais ul li img:hover{
+    transition: 0.5s;
+    width: 250px
+}
